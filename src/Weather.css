@@ -1,1 +1,35 @@
+.Weather {
+  background: linear-gradient(to top, #dfe9f3 0%, white 100%);
+  padding: 50px;
+  border-radius: 7px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
 
+.Weather h1 {
+  margin: 30px 0 0 0;
+}
+
+.Weather ul {
+  list-style: none;
+  padding: 0;
+}
+
+.Weather .details {
+  position: relative;
+  top: 25px;
+}
+
+.Weather img {
+  margin: 10px;
+}
+
+.Weather .temperature {
+  font-size: 70px;
+  font-weight: 450;
+  vertical-align: middle;
+}
+
+.Weather .unit {
+  position: relative;
+  top: -15px;
+}
