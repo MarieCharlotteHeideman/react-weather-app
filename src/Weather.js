@@ -74,3 +74,7 @@ export default function Weather(props) {
     return "Loading...";
   }
 }
+
+let forecastApiUrl = `https://api.openweathermap.org/data/3.0/onecall?q={"paris"}&appid={2edf0db13b4fd7d801de0e23251be6b9
+}`;
+console.log(forecastApiUrl.data);
