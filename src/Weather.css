@@ -24,18 +24,15 @@
 }
 
 .Weather canvas {
-  margin: 10px;
-  position: relative;
-  top: 39px;
+  margin: 20px 10px 10px 10px;
 }
 
 .Weather .temperature {
   font-size: 70px;
   font-weight: 450;
-  vertical-align: middle;
 }
 
 .Weather .unit {
   position: relative;
-  top: -15px;
+  top: -39px;
 }
