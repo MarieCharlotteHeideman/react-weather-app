@@ -19,8 +19,10 @@
   top: 25px;
 }
 
-.Weather img {
+.Weather canvas {
   margin: 10px;
+  position: relative;
+  top: 39px;
 }
 
 .Weather .temperature {
