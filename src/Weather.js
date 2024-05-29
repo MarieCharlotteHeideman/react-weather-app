@@ -13,6 +13,7 @@ export default function Weather(props) {
     console.log(response.data);
     setWeatherData({
       ready: true,
+      coordinates: response.data.coord,
       city: response.data.name,
       date: new Date(response.data.dt * 1000),
       description: response.data.weather[0].description,
@@ -66,7 +67,7 @@ export default function Weather(props) {
           </div>
         </form>
         <WeatherInfo data={weatherData} />
-        <WeatherForecast />
+        <WeatherForecast coordinates={weatherData.coordinates} />
       </div>
     );
   } else {
@@ -74,7 +75,3 @@ export default function Weather(props) {
     return "Loading...";
   }
 }
-
-let forecastApiUrl = `https://api.openweathermap.org/data/3.0/onecall?q={"paris"}&appid={2edf0db13b4fd7d801de0e23251be6b9
-}`;
-console.log(forecastApiUrl.data);
