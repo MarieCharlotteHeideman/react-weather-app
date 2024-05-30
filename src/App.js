@@ -12,7 +12,7 @@ export default function App() {
           <a
             href="https://subtle-capybara-86bdf3.netlify.app/"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             Charlotte Heideman
           </a>{" "}
@@ -20,7 +20,7 @@ export default function App() {
           <a
             href="https://github.com/MarieCharlotteHeideman/react-weather-app"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             GitHub
           </a>
