@@ -5,7 +5,6 @@ import WeatherForecast from "./WeatherForecast";
 import "./Weather.css";
 
 export default function Weather(props) {
-  const [ready, setReady] = useState(false);
   const [city, setCity] = useState(props.defaultCity);
   const [weatherData, setWeatherData] = useState({ ready: false });
 
@@ -24,7 +23,6 @@ export default function Weather(props) {
       feelslike: response.data.main.feels_like,
       icon: response.data.weather[0].icon,
     });
-    setReady(true);
   }
 
   function search() {

@@ -24,7 +24,6 @@ export default function App() {
           >
             GitHub
           </a>
-          .
         </footer>
       </div>
     </div>
